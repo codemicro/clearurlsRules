@@ -1,5 +1,9 @@
 {
     "providers": {
+        "python-docs": {
+            "urlPattern": "(https:\\/\\/|http:\\/\\/)docs\\.python\\.org(.*\\?.*)",
+            "rules": ["highlight=([a-zA-z]+)?"]
+        },
         "amazon": {
             "urlPattern": "(https:\\/\\/|http:\\/\\/)([a-zA-Z0-9-]*\\.)?(amazon)(\\.[a-zA-Z]{2,})(.*\\?.*)",
             "completeProvider": false,
